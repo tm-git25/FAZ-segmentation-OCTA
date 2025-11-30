@@ -1,0 +1,29 @@
+experiment_name: faz_conditional
+model: resnest_unet_conditional
+dataset: octa500
+train_split: train
+val_split: val
+test_split: test
+
+data:
+  root: ./data/OCTA-500
+  img_size: 512
+  num_workers: 4
+  vessel_mask_root: ./data/OCTA-500_vessel_masks
+
+training:
+  batch_size: 4
+  epochs: 1000
+  learning_rate: 1.0e-4
+  weight_decay: 1.0e-5
+  seed: 42
+
+loss:
+  w1: 2.0
+  k1: 1.0
+  k2: 2.0
+
+logging:
+  log_interval: 50
+  val_interval: 1
+  output_dir: ./runs/faz_conditional
