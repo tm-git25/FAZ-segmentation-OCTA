@@ -3,7 +3,7 @@
 This repository contains the code associated with the paper:
 
 > **Multitask Learning Approcha for Foveal Avascular Zone Segmentation in OCTA Images**  
-> Tânia Melo, Ângela Carneiro, Aurélio Campilho, Ana Maria Mendonça 
+> Tânia Melo, Ângela Carneiro, Aurélio Campilho, Ana Maria Mendonça, 
 > Special Issue on IbPRIA 2025, Pattern Analysis and Applications Journal [under submission]
 
 The work focuses on **deep learning-based segmentation** of the **foveal avascular zone (FAZ)** in **OCTA** images, with a particular emphasis on how **retinal vessel segmentation quality** affects FAZ boundary delineation.
